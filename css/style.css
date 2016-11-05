@@ -1,0 +1,806 @@
+/**
+ * colors
+ */
+.strong {
+  font-weight: bold;
+}
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-size: 100%;
+  font-family: "Lustria", serif;
+  color: black;
+  background-color: #f8f8f8;
+}
+body,
+html {
+  /* important */
+  height: 100%;
+}
+a {
+  color: #fffcf8;
+  text-decoration: none;
+}
+a.black {
+  color: black;
+  text-decoration: none;
+  border-bottom: none;
+}
+a.black:hover {
+  border-bottom: 1px dotted black;
+}
+a.page-link {
+  color: black;
+  text-decoration: none;
+}
+h1 {
+  font-family: "Lustria", serif;
+  font-weight: bold;
+  font-size: 160%;
+  text-align: center;
+  color: #8c071b;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: "Lustria", serif;
+  font-weight: bold;
+  font-size: 160%;
+  text-align: center;
+}
+.clear {
+  clear: both;
+}
+.original-size {
+  width: initial;
+}
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+.cd-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+.news-left {
+  margin: 1em 5%;
+  width: 40%;
+  float: left;
+}
+.news-right {
+  margin: 1em 5%;
+  margin-left: 55%;
+  width: 40%;
+}
+.news img {
+  width: 100%;
+  margin: 0;
+}
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+.cd-header {
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: #b71f35;
+  border-bottom: 6px solid #8c071b;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  color: #fffcf8;
+}
+.cd-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cd-header #cd-logo {
+  float: left;
+  margin: 0px 0 0 5%;
+}
+.cd-header #cd-logo img {
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .cd-header {
+    height: 70px;
+  }
+  .cd-header #cd-logo {
+    margin: 12px 0 0 5%;
+  }
+}
+.cd-main-nav {
+  float: right;
+  margin-right: 5%;
+  width: 44px;
+  height: 100%;
+  background: url("../img/cd-icon-menu.svg") no-repeat center center;
+  background-size: 44px 44px;
+  cursor: pointer;
+}
+.cd-main-nav ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.cd-main-nav ul.is-visible {
+  -webkit-transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  -o-transform: translateY(50px);
+  transform: translateY(50px);
+}
+.cd-main-nav a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 5%;
+  background: #2f292a;
+  border-top: 1px solid #453c3d;
+  color: #fffcf8;
+}
+@media only screen and (min-width: 768px) {
+  .cd-main-nav {
+    width: auto;
+    height: auto;
+    background: none;
+    cursor: auto;
+  }
+  .cd-main-nav ul {
+    position: static;
+    width: auto;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    line-height: 70px;
+  }
+  .cd-main-nav ul.is-visible {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .cd-main-nav li {
+    display: inline-block;
+    margin-left: 0.5em;
+    text-transform: uppercase;
+  }
+  .cd-main-nav a {
+    display: inline-block;
+    height: auto;
+    line-height: normal;
+    background: transparent;
+    padding: 0em 1em;
+    border-top: none;
+    color: #fffcf8;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+  .no-touch .cd-main-nav a:hover {
+    /*border-bottom: 1px dotted @bianco;*/
+    text-decoration: underline;
+  }
+}
+.cd-main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.cd-main-content img {
+  margin: 1.5em 0;
+  width: 100%;
+}
+.cd-main-content p {
+  text-align: center;
+}
+.logo-in-pagina {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+.cd-fixed-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+.cd-fixed-bg h1,
+.cd-fixed-bg h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  font-size: 30px;
+  font-size: 1.875rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../img/orsumella-vino-chianti-mani-uva-filigrana.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../img/orsumella-vino-chianti-tenuta-villa.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../img/orsumella-vino-chianti-viti-mature.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../img/orsumella-vino-chianti-cesto-uva.jpg");
+}
+.cd-fixed-bg.cd-bg-news {
+  background-image: url("../img/orsumella-vino-chianti-vite-rossa.jpg");
+}
+@media only screen and (min-width: 768px) {
+  .cd-fixed-bg h1,
+  .cd-fixed-bg h2 {
+    font-size: 36px;
+  }
+  .cd-main-content img {
+    margin: 3em 0;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-fixed-bg {
+    background-attachment: fixed;
+  }
+  .cd-fixed-bg h1,
+  .cd-fixed-bg h2 {
+    font-size: 48px;
+    font-weight: 300;
+  }
+}
+.cd-scrolling-bg {
+  position: relative;
+  min-height: 100%;
+  padding: 2em 0;
+  line-height: 1.6;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.cd-scrolling-bg.cd-color-1 {
+  /*background-color: #3d3536;*/
+  color: black;
+}
+.cd-scrolling-bg.cd-color-2 {
+  /*background-color: #99a478;*/
+  color: black;
+}
+.cd-scrolling-bg.cd-color-3 {
+  /*background-color: #b4d7a8;*/
+  color: black;
+}
+@media only screen and (min-width: 768px) {
+  .cd-scrolling-bg {
+    padding: 3em 0;
+    /* padding: 8em 0; */
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+  }
+}
+/**
+ * paragrafo vini in index
+ **/
+.link {
+  color: black;
+  border-bottom: none;
+}
+.link:hover {
+  border-bottom: 1px dotted;
+}
+a.page-link {
+  color: black;
+  text-decoration: none;
+}
+a.page-link.vini {
+  /*  color: @grigio;
+  font-family: 'Roboto', sans-serif; */
+  font-family: "Lustria", serif;
+  text-align: center;
+  color: #8c071b;
+  text-transform: uppercase;
+}
+a.page-link.vini.news {
+  font-family: "Lustria", serif;
+  font-weight: bold;
+  text-align: center;
+  color: #8c071b;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: none;
+}
+a.page-link.vini.news:hover {
+  border-bottom: 1px dotted #8c071b;
+}
+a.external-link {
+  font-size: 90%;
+  color: #8c071b;
+  text-decoration: none;
+  border-bottom: 1px dotted #8c071b;
+}
+a.external-link:hover {
+  border-bottom: none;
+}
+.logo-chianti-wrapper {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+.vini div.left,
+.vini div.center,
+.vini div.right {
+  width: 100%;
+}
+.vini h3 {
+  margin: 1.5em 0 0 0;
+  font-size: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.vini h3 a {
+  color: black;
+  border-bottom: none;
+  color: #8c071b;
+}
+.vini h3 a:hover {
+  border-bottom: 1px dotted;
+}
+.vini h4 {
+  font-size: 75%;
+  text-align: center;
+  line-height: 0.75em;
+  margin-bottom: 1em;
+}
+.vini .img-container {
+  height: 50%;
+}
+.vini .img-container img {
+  margin: 0;
+}
+.vini .img-container img a {
+  cursor: pointer;
+}
+.vini p {
+  padding: 0 5%;
+  text-align: left;
+  font-size: 85%;
+  line-height: 130%;
+}
+.vini p a.more {
+  font-size: 80%;
+  color: black;
+  border-bottom: none;
+  color: #8c071b;
+}
+.vini p a.more:hover {
+  border-bottom: 1px dotted;
+}
+@media only screen and (min-width: 768px) {
+  .vini div.left,
+  .vini div.center,
+  .vini div.right {
+    width: 33%;
+    float: left;
+  }
+  .img-container {
+    height: 100%;
+  }
+}
+/**
+ * Pagina vini
+**/
+main {
+  margin-top: 50px;
+}
+div.content.vini h2 {
+  padding: 1em 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: #333333;
+}
+div.content.vini div.img-container {
+  text-align: center;
+  margin: 0 auto;
+}
+div.content.vini div.img-container img {
+  max-height: 250px;
+  width: auto;
+}
+div.content.vini h3 {
+  font-size: 120%;
+  margin-bottom: 0.25em;
+}
+div.content.vini h3 a {
+  color: #8c071b;
+}
+div.content.vini h3,
+div.content.vini h4,
+div.content.vini h5 {
+  color: #8c071b;
+  padding: 0 5%;
+}
+div.content.vini h4 {
+  margin-bottom: 2em;
+  color: black;
+  text-align: center;
+  font-size: 100%;
+  line-height: 1.4em;
+}
+div.content.vini p {
+  text-align: left;
+  font-size: 100%;
+  margin-bottom: 2em;
+}
+div.content.vini div.left.map,
+div.content.vini div.right.map {
+  width: 90%;
+  padding: 0 5%;
+}
+div.content.vini div.right.map p {
+  text-align: left;
+  padding: 0;
+  margin-top: 1em;
+}
+div.content.vini div.map-container iframe {
+  height: 450px;
+}
+div.content.vini.map h3 {
+  padding-top: 0;
+  margin: 0;
+  margin-top: 1em;
+  text-align: left;
+  font-size: 100%;
+}
+div.content.vini.map p.dove-siamo {
+  margin: 0;
+}
+div.content.vini.map dl.contatti {
+  margin-bottom: 2em;
+}
+div.content.vini.map dl.contatti dt {
+  margin: 1em 0 0.5em 0;
+  font-weight: bold;
+  color: #8c071b;
+}
+div.content.vini.map dl.contatti dd {
+  line-height: 120%;
+}
+div.content.vini.news div.left.news,
+div.content.vini.news div.right.news {
+  width: 100%;
+}
+div.content.vini.news h2 {
+  font-family: 'Roboto', sans-serif;
+}
+div.content.vini.news h3 {
+  margin: 1em 0;
+  font-size: 140%;
+  text-align: left;
+}
+div.content.vini.news img {
+  margin: 0;
+  padding: 0 5%;
+}
+div.content.vini.news p.news {
+  margin: 1em 5%;
+  text-align: left;
+}
+div.content.vini.seconde h3 {
+  font-family: 'Lustria', sans-serif;
+  text-transform: uppercase;
+  color: #8c071b;
+}
+div.content.vini.seconde .seconde-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+div.content.vini.seconde .seconde-wrapper p {
+  padding: 0;
+  width: 80%;
+  margin: 2em auto 4em auto;
+  text-align: left;
+  line-height: 1.4em;
+}
+div.content.vini.seconde .seconde-wrapper img {
+  margin: 0;
+}
+/**
+ * Olio
+ **/
+div.content.vini.seconde.olio div.logo-olio-wrapper,
+div.content.vini.seconde.olio div.logo-olio-dop-wrapper {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1em;
+}
+@media only screen and (min-width: 768px) {
+  div.content.vini {
+    padding-top: 2em;
+  }
+  div.content.vini div.left {
+    width: 40%;
+    float: left;
+  }
+  div.content.vini div.right {
+    width: 60%;
+  }
+  div.content.vini div.right h3,
+  div.content.vini div.right h4,
+  div.content.vini div.right p {
+    text-align: left;
+    padding: 0;
+    padding-right: 5%;
+    width: 75%;
+  }
+  div.content.vini div.right h3 {
+    color: #8c071b;
+  }
+  div.content.vini div.right h3 a {
+    color: #8c071b;
+  }
+  div.content.vini div.right h5 {
+    color: #8c071b;
+    margin-bottom: 0.25em;
+    padding: 0;
+  }
+  div.content.vini div.right p.pdf a {
+    color: black;
+    border-bottom: 1px dotted black;
+    text-decoration: none;
+  }
+  div.content.vini div.right p.pdf a:hover {
+    border-bottom: none;
+  }
+  div.content.vini div.left.map {
+    width: 35%;
+    padding: 0 0 0 5%;
+  }
+  div.content.vini div.right.map {
+    padding-left: 2%;
+    width: 48%;
+  }
+  div.content.vini div.map-container iframe {
+    height: 450px;
+  }
+  div.content.vini div.img-container {
+    text-align: center;
+    margin: 0 auto;
+  }
+  div.content.vini div.img-container img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  div.content.vini.map {
+    margin-bottom: 5em;
+  }
+  div.content.vini.map h3 {
+    margin-top: 0;
+  }
+  div.content.vini.map dl.contatti {
+    margin-bottom: 0;
+  }
+  div.content.vini.news section.news {
+    margin-bottom: 2em;
+  }
+  div.content.vini.news article.news {
+    margin-bottom: 2em;
+  }
+  div.content.vini.news div.left.news {
+    width: 40%;
+    float: left;
+    text-align: right;
+  }
+  div.content.vini.news div.right.news {
+    width: 60%;
+  }
+  div.content.vini.news h3 {
+    width: 40%;
+    text-align: right;
+    margin: 1em 0;
+    padding: 0;
+  }
+  div.content.vini.news img {
+    margin: 0;
+    padding-right: 0;
+    padding-left: 15%;
+    max-height: 250px;
+    width: auto;
+  }
+  div.content.vini.news p.news {
+    margin: 0 5%;
+    text-align: left;
+  }
+  div.content.vini.seconde .seconde-wrapper {
+    width: 60%;
+  }
+  div.content.vini.seconde .seconde-wrapper p {
+    width: 80%;
+    margin: 2em auto 4em auto;
+    line-height: 1.4em;
+  }
+  div.content.vini.seconde.olio div.header-olio-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.content.vini.seconde.olio div.logo-olio-wrapper {
+    width: 7%;
+    margin-top: 0;
+    margin-left: 5%;
+    float: left;
+  }
+  div.content.vini.seconde.olio div.titolo-olio-wrapper {
+    float: left;
+    width: 70%;
+  }
+  div.content.vini.seconde.olio div.titolo-olio-wrapper h3 {
+    margin-top: 0.5em;
+  }
+  div.content.vini.seconde.olio div.titolo-olio-wrapper h4 {
+    margin-bottom: 0em;
+  }
+  div.content.vini.seconde.olio div.logo-olio-dop-wrapper {
+    width: 7%;
+    float: left;
+    margin-top: 0;
+    margin-right: 5%;
+  }
+  div.content.vini.seconde.olio a.page-link {
+    border-bottom: 1px dotted;
+  }
+  div.content.vini.seconde.olio a.page-link:hover {
+    border-bottom: none;
+  }
+}
+/*
+ * Footer
+ */
+.cd-footer {
+  padding: 2em 5%;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  min-height: 35%;
+  height: auto !important;
+  background: #8c071b;
+  /*border-bottom: 6px solid @rosso-scuro;*/
+  /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);*/
+  z-index: 2;
+  color: #fffcf8;
+  text-align: left;
+}
+.cd-footer-left {
+  width: 60%;
+  float: left;
+}
+.cd-footer-center {
+  width: 40%;
+  float: left;
+}
+.cd-footer-center p {
+  margin: 0;
+  text-align: left;
+}
+/*.cd-footer-right {
+  float: left;
+  width: 15%;
+  text-align: right;
+  ul > li {
+    display: inline;
+  }
+}
+*/
+.cd-footer-logo img {
+  display: block;
+  width: auto;
+  margin: 0;
+  float: left;
+  padding-right: 3%;
+}
+.cd-footer p {
+  margin: 0;
+  text-align: left;
+}
+p.cd-footer-contatti {
+  font-size: 90%;
+  line-height: 1.2em;
+  text-align: left;
+  padding-left: 15px;
+  float: left;
+}
+.cd-footer-nav ul {
+  padding-left: 10px;
+  border-left: 1px dotted #b71f35;
+}
+.cd-footer-nav li {
+  margin-bottom: 0.4em;
+}
+.cd-footer-nav li a {
+  text-decoration: none;
+}
+.cd-footer-nav li a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 768px) {
+  .cd-footer {
+    min-height: 110%;
+  }
+  .cd-footer-left,
+  .cd-footer-center,
+  .cd-footer-right {
+    clear: both;
+    width: 100%;
+    text-align: left;
+  }
+  .cd-footer-logo img {
+    padding-top: 0;
+  }
+  .cd-footer-nav {
+    margin-top: 1em;
+  }
+  .cd-footer-nav ul {
+    padding-left: 0;
+    border-left: none;
+  }
+  .cd-footer-nav ul li {
+    margin-bottom: 0.2em;
+  }
+  p.cd-footer-contatti {
+    padding: 1em 0;
+  }
+  .cd-footer-right {
+    padding-top: 1em;
+  }
+}
