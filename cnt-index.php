@@ -11,7 +11,7 @@
     <div class="cd-scrolling-bg cd-color-2">
       <div class="cd-container">
         <h1>Tenuta Orsumella</h1>
-        <img src="img/img-orsumella-landscape.jpg">
+        <img src="img/img-orsumella-vino-chianti-classico-home-striscia.jpg">
         <p>
           La linea ondulata delle colline all’orizzonte, la verde geometria delle vigne, l’argento degli olivi e le strade punteggiate dai cipressi, fanno parte dell’armonia di un paesaggio che non è soltanto bellezza ma è anche carattere e fonte di ispirazione per creare vini unici.
           <br>
@@ -132,7 +132,7 @@
 <!--     <div class="cd-scrolling-bg cd-color-2">
       <div class="cd-container">
         <h1><a class="page-link" name="vigne">”le nostre vigne...”</a></h1>
-        <img src="img/img-orsumella-landscape.jpg">
+        <img src="img/img-orsumella-vino-chianti-classico-home-striscia.jpg">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi, mollitia, repellendus sapiente repudiandae labore rerum amet culpa inventore, modi non. Quo nisi veritatis vitae nam, labore fugit. 
         </p>

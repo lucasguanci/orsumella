@@ -11,7 +11,7 @@
     <div class="cd-scrolling-bg cd-color-2">
       <div class="cd-container">
         <h1>Weingut Orsumella</h1>
-        <img src="img/img-orsumella-landscape.jpg">
+        <img src="img/img-orsumella-vino-chianti-classico-home-striscia.jpg">
         <p>
           Die sanft geschwungenen Linien der Hügel am Horizont, die grüne Geometrie der Weinberge, das silberne Aufleuchten der Olivenbäume und die mit Zypressen gefleckten Straßen sind Teil der Harmonie einer Umgebung, die nicht nur Schönheit, sondern auch Charakter besitzt und zur Erzeugung einzigartiger Weine inspiriert.
           <br>
@@ -132,7 +132,7 @@ und Ausdruck seines Geistes ist.<br>
 <!--     <div class="cd-scrolling-bg cd-color-2">
       <div class="cd-container">
         <h1><a class="page-link" name="vigne">”le nostre vigne...”</a></h1>
-        <img src="img/img-orsumella-landscape.jpg">
+        <img src="img/img-orsumella-vino-chianti-classico-home-striscia.jpg">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi, mollitia, repellendus sapiente repudiandae labore rerum amet culpa inventore, modi non. Quo nisi veritatis vitae nam, labore fugit.
         </p>

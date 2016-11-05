@@ -11,7 +11,7 @@
     <div class="cd-scrolling-bg cd-color-2">
       <div class="cd-container">
         <h1>Orsumella Estate</h1>
-        <img src="img/img-orsumella-landscape.jpg">
+        <img src="img/img-orsumella-vino-chianti-classico-home-striscia.jpg">
         <p>
           The undulating lines of the hills on the horizon, the green geometry set by the vineyards, flashes of silver from the olive trees and the roads dotted with cypresses, are part of the harmony of an enviroment which isn't just beauty but also character and an inspiration for creating unique wines.
           <br>
@@ -132,7 +132,7 @@
 <!--     <div class="cd-scrolling-bg cd-color-2">
       <div class="cd-container">
         <h1><a class="page-link" name="vigne">”le nostre vigne...”</a></h1>
-        <img src="img/img-orsumella-landscape.jpg">
+        <img src="img/img-orsumella-vino-chianti-classico-home-striscia.jpg">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi, mollitia, repellendus sapiente repudiandae labore rerum amet culpa inventore, modi non. Quo nisi veritatis vitae nam, labore fugit. 
         </p>
