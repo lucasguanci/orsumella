@@ -23,6 +23,16 @@
           Cap.Soc i.v. € 100.000<br>
           Pec <a href="mailto:orsumella@pec.it">orsumella@pec.it</a>
         </p>
+        <!-- marchio UE -->
+        <div style="clear: both; float: left; margin-bottom: 1em; width: 100%"></div>
+        <div class="cd-footer-logo">
+          <img src="img/logo-ue-negativo.png">
+        </div>
+        <p class="cd-footer-contatti" style="width: 80%">
+          Campagna finanziata ai sensi del regolamento ue n. 1308/13<br>
+          Campaign financed according to regulation ec no 1308/13
+        </p>
+        <!-- /marchio UE -->
       </div>
       <div class="cd-footer-center">
         <nav class="cd-footer-nav">

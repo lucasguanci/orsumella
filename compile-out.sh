@@ -19,14 +19,14 @@ curl http://orsumella.local/orsumella-vini-chianti-classico-il-territorio.php > 
 curl http://orsumella.local/orsumella-vini-chianti-classico-il-territorio-en.php > out/orsumella-vini-chianti-classico-il-territorio-en.html
 curl http://orsumella.local/orsumella-vini-chianti-classico-olio.php > out/orsumella-vini-chianti-classico-olio.html
 curl http://orsumella.local/orsumella-vini-chianti-classico-olio-en.php > out/orsumella-vini-chianti-classico-olio-en.html
-curl http://orsumella.local/orsumella-vini-chianti-classico-contatti-de.php > out/orsumella-vini-chianti-classico-contatti-de.php
-curl http://orsumella.local/orsumella-vini-chianti-classico-corte-rinieri-de.php > out/orsumella-vini-chianti-classico-corte-rinieri-de.php
-curl http://orsumella.local/orsumella-vini-chianti-classico-il-territorio-de.php > out/orsumella-vini-chianti-classico-il-territorio-de.php
-curl http://orsumella.local/orsumella-vini-chianti-classico-la-tenuta-de.php > out/orsumella-vini-chianti-classico-la-tenuta-de.php
-curl http://orsumella.local/orsumella-vini-chianti-classico-news-de.php > out/orsumella-vini-chianti-classico-news-de.php
-curl http://orsumella.local/orsumella-vini-chianti-classico-olio-de.php > out/orsumella-vini-chianti-classico-olio-de.php
-curl http://orsumella.local/orsumella-vini-chianti-classico-orsumella-de.php > out/orsumella-vini-chianti-classico-orsumella-de.php
-curl http://orsumella.local/orsumella-vini-chianti-classico-rubereto-de.php > out/orsumella-vini-chianti-classico-rubereto-de.php
+curl http://orsumella.local/orsumella-vini-chianti-classico-contatti-de.php > out/orsumella-vini-chianti-classico-contatti-de.html
+curl http://orsumella.local/orsumella-vini-chianti-classico-corte-rinieri-de.php > out/orsumella-vini-chianti-classico-corte-rinieri-de.html
+curl http://orsumella.local/orsumella-vini-chianti-classico-il-territorio-de.php > out/orsumella-vini-chianti-classico-il-territorio-de.html
+curl http://orsumella.local/orsumella-vini-chianti-classico-la-tenuta-de.php > out/orsumella-vini-chianti-classico-la-tenuta-de.html
+curl http://orsumella.local/orsumella-vini-chianti-classico-news-de.php > out/orsumella-vini-chianti-classico-news-de.html
+curl http://orsumella.local/orsumella-vini-chianti-classico-olio-de.php > out/orsumella-vini-chianti-classico-olio-de.html
+curl http://orsumella.local/orsumella-vini-chianti-classico-orsumella-de.php > out/orsumella-vini-chianti-classico-orsumella-de.html
+curl http://orsumella.local/orsumella-vini-chianti-classico-rubereto-de.php > out/orsumella-vini-chianti-classico-rubereto-de.html
 
 
 # change file extension in anchor tags
