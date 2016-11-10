@@ -5,7 +5,7 @@
 ?>
     <!-- vino orsumella -->
     <div class="content vini">
-      <h2>I Vini</h2>
+      <h2>Weine</h2>
       <article class="vini">
         <div class="left">
           <div class="img-container">

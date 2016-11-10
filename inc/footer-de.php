@@ -46,7 +46,7 @@
               Social&nbsp;
               <a href="http://www.facebook.com/orsumella" target="_blank"><i class="fa fa-lg fa-facebook-square"></i></a>
               <a href="https://twitter.com/orsumella" target="_blank"><i class="fa fa-lg fa-twitter-square"></i></a>
-              <a href="https://www.instagram.com/orsumella/" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
+              <a href="https://www.instagram.com/orsumellawinery/" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
             </li>
             <li>Cookies</li>
           </ul>
