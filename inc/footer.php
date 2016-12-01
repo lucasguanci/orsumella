@@ -4,7 +4,7 @@
  */
 ?>
     <!-- footer -->
-    <div class="cd-fixed-bg cd-footer">
+    <div class="cd-footer luke-footer">
       <div class="cd-footer-left">
         <div class="cd-footer-logo">
           <a href="index.php">
@@ -25,10 +25,10 @@
         </p>
         <!-- marchio UE -->
         <div style="clear: both; float: left; margin-bottom: 1em; width: 100%"></div>
-        <div class="cd-footer-logo">
+        <div class="cd-footer-logo ue">
           <img src="img/logo-ue-negativo.png">
         </div>
-        <p class="cd-footer-contatti" style="width: 80%">
+        <p class="cd-footer-contatti ue" style="width: 80%">
           Campagna finanziata ai sensi del regolamento ue n. 1308/13<br>
           Campaign financed according to regulation ec no 1308/13
         </p>
@@ -54,5 +54,7 @@
         </nav>
       </div>
       <!-- <div class="cd-footer-right"></div> -->
+      <div style="display: block; clear:both"></div>
     </div>
     <!-- /footer -->
+    <div style="display: block; clear:both"></div>

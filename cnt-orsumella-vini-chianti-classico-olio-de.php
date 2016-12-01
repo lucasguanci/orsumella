@@ -20,7 +20,7 @@
             <img class="logo-olio" src="img/logo-dop.png">
           </div>
           <div class="titolo-olio-wrapper">
-            <h3>Extra Virgin Olive Oil</h3>
+            <h3>Extra Vergine Olivenöl</h3>
             <h4>Chianti Classico D.O.P.</h4>
           </div>
           <div class="logo-olio-dop-wrapper">
