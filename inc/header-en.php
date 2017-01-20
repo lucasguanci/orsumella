@@ -13,7 +13,7 @@
         <!-- inser more links here -->
         <li><a href="index-en.php#vini">Wines</a></li>
         <li><a href="orsumella-vini-chianti-classico-contatti-en.php">Contacts</a></li>
-        <li><a href="orsumella-vini-chianti-classico-news-en.php">News</a></li>
+        <li><a href="orsumella-vini-chianti-classico-news-en.php">Events</a></li>
         <li>
           <a href="index.php"><span class="flag-icon flag-icon-it"></span></a>
         </li>
