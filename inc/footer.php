@@ -4,7 +4,7 @@
  */
 ?>
     <!-- footer -->
-    <div class="cd-footer luke-footer">
+    <div class="cd-footer">
       <div class="cd-footer-left">
         <div class="cd-footer-logo">
           <a href="index.php">

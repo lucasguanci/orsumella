@@ -29,7 +29,6 @@ body {
 body,
 html {
   /* important */
-
   height: 100%;
 }
 a {
@@ -75,14 +74,12 @@ Modules - reusable parts of our design
 -------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-
   width: 90%;
   max-width: 768px;
   margin: 0 auto;
 }
 .cd-container::after {
   /* clearfix */
-
   content: '';
   display: table;
   clear: both;
@@ -219,13 +216,11 @@ Main components
   }
   .no-touch .cd-main-nav a:hover {
     /*border-bottom: 1px dotted @bianco;*/
-  
     text-decoration: underline;
   }
 }
 .cd-main-content {
   /* you need to assign a min-height to the main content so that the children can inherit it*/
-
   height: 100%;
   position: relative;
   z-index: 1;
@@ -314,24 +309,20 @@ Main components
 }
 .cd-scrolling-bg.cd-color-1 {
   /*background-color: #3d3536;*/
-
   color: black;
 }
 .cd-scrolling-bg.cd-color-2 {
   /*background-color: #99a478;*/
-
   color: black;
 }
 .cd-scrolling-bg.cd-color-3 {
   /*background-color: #b4d7a8;*/
-
   color: black;
 }
 @media only screen and (min-width: 768px) {
   .cd-scrolling-bg {
     padding: 3em 0;
     /* padding: 8em 0; */
-  
     font-size: 20px;
     font-size: 1.25rem;
     line-height: 2;
@@ -355,7 +346,6 @@ a.page-link {
 a.page-link.vini {
   /*  color: @grigio;
   font-family: 'Roboto', sans-serif; */
-
   font-family: "Lustria", serif;
   text-align: center;
   color: #8c071b;
@@ -727,9 +717,7 @@ div.content.vini.seconde.olio div.logo-olio-dop-wrapper {
   height: auto !important;
   background: #8c071b;
   /*border-bottom: 6px solid @rosso-scuro;*/
-
   /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);*/
-
   z-index: 2;
   color: #fffcf8;
   text-align: left;
