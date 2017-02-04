@@ -112,12 +112,12 @@
     </div>
     <div class="cd-scrolling-bg cd-color-1">
       <div class="cd-container">
-        <h1><a class="page-link vini news" href="orsumella-vini-chianti-classico-news.php#ccc">Chianti Classico Collection 2016</a></h1>
-        <a href="orsumella-vini-chianti-classico-news.php#ccc"><img src="img/news-fiera-vino-home.jpg"></a>
+        <h1><a class="page-link vini news" href="orsumella-vini-chianti-classico-news.php#ccc2017">Chianti Classico Collection 2017</a></h1>
+        <a href="orsumella-vini-chianti-classico-news.php#ccc2017"><img src="img/news-fiera-vino-home.jpg"></a>
         <p>
-          Orsumella sarà presente alla Chianti Classico Collection 2016 alla Stazione Leopolda di Firenze il 15 e 16 Febbraio.
+          Orsumella sarà presente alla Chianti Classico Collection 2017 alla Stazione Leopolda di Firenze il 13 Febbraio.
           <br>
-          Al nostro stand potrete assaggiare i vini Chianti Classico 2013 ed IGT 2013, il nostro olio DOP 2015 e l’anteprima Chianti Classico 2015.
+          Al nostro stand potrete assaggiare i vini Chianti Classico 2013 ed IGT 2013, e l’anteprima Chianti Classico 2016.
           <br>
           <a class="external-link" href="orsumella-vini-chianti-classico-news.php">Notizie</a>
         </p>

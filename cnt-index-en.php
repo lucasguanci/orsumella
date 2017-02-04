@@ -112,12 +112,11 @@
     </div>
     <div class="cd-scrolling-bg cd-color-1">
       <div class="cd-container">
-        <h1><a class="page-link vini news" href="orsumella-vini-chianti-classico-news-en.php#ccc">Chianti Classico Collection 2016</a></h1>
-        <a href="orsumella-vini-chianti-classico-news-en.php#ccc"><img src="img/news-fiera-vino-home.jpg"></a>
+        <h1><a class="page-link vini news" href="orsumella-vini-chianti-classico-news-en.php#ccc2017">Chianti Classico Collection 2017</a></h1>
+        <a href="orsumella-vini-chianti-classico-news-en.php#ccc2017"><img src="img/news-fiera-vino-home.jpg"></a>
         <p>
-          Orsumella will be present at the Chianti Classico Collection 2016 at the Stazione Leopolda in Firenze on February 15 and 16.<br>
-          For the occasion it will be possible to taste the Orsumella Chianti Classico DOCG, Corte Rinieri Chianti Classico DOCG Riserva and Rubereto IGT year 2013 wines, but especially the premiere of Orsumella 2015.<br>
-          Completing the offer our DOP oil 2015.
+          Orsumella will be present at the Chianti Classico Collection 2017 at the Stazione Leopolda in Firenze on February 13th.<br>
+          For the occasion it will be possible to taste the Orsumella Chianti Classico DOCG, Corte Rinieri Chianti Classico DOCG Riserva and Rubereto IGT year 2013 wines, but especially the premiere of Orsumella 2016.
           <br>
           <a class="external-link" href="orsumella-vini-chianti-classico-news-en.php">News</a>
         </p>
