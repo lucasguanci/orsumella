@@ -54,7 +54,7 @@
         <article class="news">
           <h3><a class="page-link" name="pwhk2017">Pro Wein Hong Kong 2017</a></h3>
           <div class="left news">
-            <img src="img/news-fiera-pro-wein.jpg">
+            <img src="img/news-fiera-orsumella-vinexpo-asia.jpg">
           </div>
           <div class="right news">
             <p class="news">
