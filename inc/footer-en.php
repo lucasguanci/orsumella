@@ -26,10 +26,10 @@
         <!-- marchio UE -->
         <div style="clear: both; float: left; margin-bottom: 1em; width: 100%"></div>
         <div class="cd-footer-logo ue">
-          <img src="img/logo-ue-negativo.png">
+          <img src="img/logo-ue.png">
         </div>
         <p class="cd-footer-contatti ue" style="width: 80%">
-          Campaign financed according to regulation ec no 1308/13
+          CAMPAGNA FINANZIATA AI SENSI DEL REGOLAMENTO UE N. 1308/13
         </p>
         <!-- /marchio UE -->
       </div>
