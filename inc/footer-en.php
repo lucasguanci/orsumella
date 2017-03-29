@@ -29,7 +29,8 @@
           <img src="img/logo-ue.png">
         </div>
         <p class="cd-footer-contatti ue" style="width: 80%">
-          CAMPAGNA FINANZIATA AI SENSI DEL REGOLAMENTO UE N. 1308/13
+          CAMPAGNA FINANZIATA AI SENSI DEL REGOLAMENTO UE N. 1308/13<br>
+          CAMPAIGN FINANCED ACCORDING TO EC REGULATION No 1308/13
         </p>
         <!-- /marchio UE -->
       </div>
