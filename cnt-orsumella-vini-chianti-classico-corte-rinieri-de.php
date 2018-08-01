@@ -4,9 +4,9 @@
  */
 ?>
     <!-- vino orsumella -->
-    <div class="content vini">
+    <div class="content vini vini scheda-tecnica">
       <h2>Weine</h2>
-      <article class="vini">
+      <article class="vini vini scheda-tecnica">
         <div class="left">
           <div class="img-container">
             <a href="#">

@@ -68,7 +68,7 @@ und Ausdruck seines Geistes ist.<br>
               <a class="more" href="orsumella-vini-chianti-classico-orsumella-de.php">read more</a>
             </p>
           </div>
-          <div class="center">
+          <div class="center-left">
             <h3>
               <a href="orsumella-vini-chianti-classico-corte-rinieri-de.php">CORTE RINIERI</a>
             </h3>
@@ -82,6 +82,23 @@ und Ausdruck seines Geistes ist.<br>
               Durch die strenge und achtsame Einhaltung der Chianti Classico-Tradition kann Corte Rinieri die Schönheit und die Duftnoten seines Landes wiedergeben. 95% Sangiovese und 5% Cabernet Sauvignon.
               <br>
               <a class="more" href="orsumella-vini-chianti-classico-corte-rinieri-de.php">read more</a>
+            </p>
+          </div>
+          <div class="clear"></div>
+          <div class="center-right">
+            <h3>
+              <a href="orsumella-vini-chianti-classico-gran-selezione-de.php">ORSUMELLA GRAN SELEZIONE</a>
+            </h3>
+            <h4>Chianti Classico D.O.C.G. Gran Selezione</h4>
+            <div class="img-container">
+              <a href="orsumella-vini-chianti-classico-gran-selezione-de.php">
+                <img src="img/vini-chianti-classico-orsumella-gran-selezione.jpg">
+              </a>
+            </div>
+            <p>
+              Dalle migliori uve di Tenuta Orsumella nasce questo Chianti Classico Gran Selezione, espressione autentica del territorio dal quale proviene.
+              <br>
+              <a class="more" href="orsumella-vini-chianti-classico-gran-selezione-de.php">read more</a>
             </p>
           </div>
           <div class="right">
@@ -100,6 +117,7 @@ und Ausdruck seines Geistes ist.<br>
               <a class="more" href="orsumella-vini-chianti-classico-rubereto-de.php">read more</a>
             </p>
           </div>
+          <div class="clear"></div>
         </div>
         <div class="clear"></div>
       </div>

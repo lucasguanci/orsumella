@@ -68,7 +68,7 @@
               <a class="more" href="orsumella-vini-chianti-classico-orsumella.php">leggi tutto</a>
             </p>
           </div>
-          <div class="center">
+          <div class="center-left">
             <h3>
               <a href="orsumella-vini-chianti-classico-corte-rinieri.php">CORTE RINIERI</a>
             </h3>
@@ -83,6 +83,23 @@
               sa restituire la bellezza e il profumo della terra da cui proviene.
               <br>
               <a class="more" href="orsumella-vini-chianti-classico-corte-rinieri.php">leggi tutto</a>
+            </p>
+          </div>
+          <div class="clear"></div>
+          <div class="center-right">
+            <h3>
+              <a href="orsumella-vini-chianti-classico-gran-selezione.php">ORSUMELLA GRAN SELEZIONE</a>
+            </h3>
+            <h4>Chianti Classico D.O.C.G. Gran Selezione</h4>
+            <div class="img-container">
+              <a href="orsumella-vini-chianti-classico-gran-selezione.php">
+                <img src="img/vini-chianti-classico-orsumella-gran-selezione.jpg">
+              </a>
+            </div>
+            <p>
+              Dalle migliori uve di Tenuta Orsumella nasce questo Chianti Classico Gran Selezione, espressione autentica del territorio dal quale proviene.
+              <br>
+              <a class="more" href="orsumella-vini-chianti-classico-gran-selezione.php">leggi tutto</a>
             </p>
           </div>
           <div class="right">
@@ -100,6 +117,7 @@
               <a class="more" href="orsumella-vini-chianti-classico-rubereto.php">leggi tutto</a>
             </p>
           </div>
+          <div class="clear"></div>
         </div>
         <div class="clear"></div>
       </div>

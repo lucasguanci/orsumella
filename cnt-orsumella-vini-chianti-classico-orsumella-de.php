@@ -4,11 +4,11 @@
  */
 ?>
     <!-- vino orsumella -->
-    <div class="content vini">
+    <div class="content vini scheda-tecnica">
       <h2>Weine</h2>
       <article class="vini">
         <div class="left">
-          <div class="img-container">
+          <div class="img-container scheda-tecnica">
             <a href="#">
               <img src="img/vini-chianti-classico-orsumella.jpg">
             </a>
