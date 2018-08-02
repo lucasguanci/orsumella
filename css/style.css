@@ -518,6 +518,7 @@ div.content.vini.map p.dove-siamo {
 }
 div.content.vini.map dl.contatti {
   margin-bottom: 2em;
+  text-align: left;
 }
 div.content.vini.map dl.contatti dt {
   margin: 1em 0 0.5em 0;

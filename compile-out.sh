@@ -27,7 +27,9 @@ curl http://orsumella.local/orsumella-vini-chianti-classico-news-de.php > out/or
 curl http://orsumella.local/orsumella-vini-chianti-classico-olio-de.php > out/orsumella-vini-chianti-classico-olio-de.html
 curl http://orsumella.local/orsumella-vini-chianti-classico-orsumella-de.php > out/orsumella-vini-chianti-classico-orsumella-de.html
 curl http://orsumella.local/orsumella-vini-chianti-classico-rubereto-de.php > out/orsumella-vini-chianti-classico-rubereto-de.html
-
+curl http://orsumella.local/orsumella-vini-chianti-classico-gran-selezione.php > out/orsumella-vini-chianti-classico-gran-selezione.html
+curl http://orsumella.local/orsumella-vini-chianti-classico-gran-selezione-en.php > out/orsumella-vini-chianti-classico-gran-selezione-en.html
+curl http://orsumella.local/orsumella-vini-chianti-classico-gran-selezione-de.php > out/orsumella-vini-chianti-classico-gran-selezione-de.html
 
 # change file extension in anchor tags
 for i in out/*.html; do

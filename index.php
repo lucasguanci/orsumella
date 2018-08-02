@@ -11,6 +11,7 @@
   <main class="cd-main-content">
     <?php include_once 'cnt-index.php' ?>
     <?php include_once 'inc/footer.php' ?>
+    <?php include_once 'inc/privacy.php' ?>
   </main>
 </body>
 </html>
